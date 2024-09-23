@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-09-23T09:55:32+00:00\n"
+"POT-Creation-Date: 2024-09-23T10:26:46+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: wp-kirk\n"
@@ -37,6 +37,22 @@ msgstr ""
 #. Author URI of the plugin
 #: wp-kirk.php
 msgid "https://wpbones.vercel.app/"
+msgstr ""
+
+#: plugin/Http/Controllers/Dashboard/DashboardController.php:22
+msgid "Hello, World! The jQuery version is"
+msgstr ""
+
+#: resources/views/dashboard/index.php:13
+msgid "Below you will find an example of how to localize a ReactJS application."
+msgstr ""
+
+#: resources/views/dashboard/second.php:12
+msgid "This page opens an alert with localized text for JavaScript."
+msgstr ""
+
+#: resources/views/dashboard/second.php:13
+msgid "Open Alert"
 msgstr ""
 
 #: public/apps/app.js:1

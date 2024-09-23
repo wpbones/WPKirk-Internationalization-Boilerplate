@@ -9,7 +9,6 @@
 
 <div class="wp-kirk wrap">
   <h1><?php echo $plugin->Name; ?> boilerplate</h1>
-  <h3>PHP Version <?php echo phpversion(); ?></h3>
-  <p><?php _e('Below you will find an example of how to localize a ReactJS application.', 'wp-kirk'); ?></p>
-  <div id="react-app"></div>
+  <p><?php _e('This page opens an alert with localized text for JavaScript.', 'wp-kirk'); ?></p>
+  <button id="open-alert"><?php _e('Open Alert', 'wp-kirk'); ?></button>
 </div>
