@@ -8,7 +8,7 @@ Stable tag: 1.5.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WP Bones Internationalization Boilerplate plugin.
+WP Bones Internationalization Boilerplate WordPress plugin.
 
 == Description ==
 
