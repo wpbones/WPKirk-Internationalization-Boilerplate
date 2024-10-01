@@ -37,7 +37,7 @@ msgstr ""
 
 #. Author URI of the plugin
 #: wp-kirk.php
-msgid "https://wpbones.vercel.app/"
+msgid "https://wpbones.com/"
 msgstr ""
 
 #: plugin/Http/Controllers/Dashboard/DashboardController.php:22
