@@ -7,9 +7,26 @@
  |
 -->
 
-<div class="wp-kirk wrap">
-  <h1><?php echo $plugin->Name; ?> boilerplate</h1>
-  <h3>PHP Version <?php echo phpversion(); ?></h3>
-  <p><?php _e('Below you will find an example of how to localize a ReactJS application.', 'wp-kirk'); ?></p>
-  <div id="react-app"></div>
+<?php ob_start() ?>
+
+<div class="wp-kirk wrap wp-kirk-sample">
+
+  <div class="wp-kirk-toc-content">
+
+    <?php wpkirk_section(__('Controller', 'wp-kirk')); ?>
+    <?php wpkirk_code('@/plugin/Http/Controllers/Dashboard/DashboardController.php'); ?>
+
+    <?php wpkirk_section(__('ReactJS Application', 'wp-kirk')); ?>
+    <?php wpkirk_code('@/resources/assets/apps/app.jsx'); ?>
+
+    <?php wpkirk_section(__('This View', 'wp-kirk')); ?>
+    <?php wpkirk_code('@/resources/views/dashboard/index.php'); ?>
+
+    <?php wpkirk_section(__('Results', 'wp-kirk')); ?>
+    <div id="react-app"></div>
+
+  </div>
+
+  <?php wpkirk_toc('Internationalization') ?>
+
 </div>

@@ -2,10 +2,10 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Kirk Internationalization Boilerplate 1.6.0\n"
+"Project-Id-Version: WP Kirk Internationalization Boilerplate 1.7.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-kirk\n"
-"POT-Creation-Date: 2024-09-23T10:26:46+00:00\n"
-"PO-Revision-Date: 2024-09-23 12:28+0200\n"
+"POT-Creation-Date: 2024-11-12T17:37:49+00:00\n"
+"PO-Revision-Date: 2024-11-12 18:38+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: it\n"
@@ -18,43 +18,61 @@ msgstr ""
 #. Plugin Name of the plugin
 #: wp-kirk.php
 msgid "WP Kirk Internationalization Boilerplate"
-msgstr ""
+msgstr "WP Kirk Internazionalizzazione Boilerplate"
 
 #. Plugin URI of the plugin
 #: wp-kirk.php
-msgid "https://github.com/wpbones/WPKirk"
-msgstr ""
+msgid "https://github.com/wpbones/WPKirk-Internationalization-Boilerplate"
+msgstr "https://github.com/wpbones/WPKirk-Internationalization-Boilerplate"
 
 #. Description of the plugin
 #: wp-kirk.php
 msgid "WP Bones template WordPress plugin"
-msgstr ""
+msgstr "Benvenuto nel plugin WordPress usato come modello WP Bones"
 
 #. Author of the plugin
 #: wp-kirk.php
 msgid "Giovambattista Fazioli"
-msgstr ""
+msgstr "Giovambattista Fazioli"
 
 #. Author URI of the plugin
 #: wp-kirk.php
 msgid "https://wpbones.com/"
-msgstr ""
+msgstr "https://wpbones.com/"
 
-#: plugin/Http/Controllers/Dashboard/DashboardController.php:22
+#: config/menus.php:25 config/menus.php:26
+msgid "Main View"
+msgstr "Vista Principale"
+
+#: config/menus.php:33 config/menus.php:34
+msgid "Second View"
+msgstr "Seconda Vista"
+
+#: plugin/Http/Controllers/Dashboard/DashboardController.php:26
 msgid "Hello, World! The jQuery version is"
 msgstr "Ciao, Mondo! La versione di jQuery è"
 
-#: resources/views/dashboard/index.php:13
-msgid "Below you will find an example of how to localize a ReactJS application."
-msgstr "Qui sotto troverai un esempio di come localizzare un’applicazione ReactJS."
+#: resources/views/dashboard/index.php:16
+#: resources/views/dashboard/second.php:16
+msgid "Controller"
+msgstr "Controllore"
 
-#: resources/views/dashboard/second.php:12
-msgid "This page opens an alert with localized text for JavaScript."
-msgstr "Questa pagina apre un avviso con testo localizzato per JavaScript."
+#: resources/views/dashboard/index.php:19
+msgid "ReactJS Application"
+msgstr "Applicazione ReactJS"
 
-#: resources/views/dashboard/second.php:13
-msgid "Open Alert"
-msgstr "Apri Alert"
+#: resources/views/dashboard/index.php:22
+#: resources/views/dashboard/second.php:22
+msgid "This View"
+msgstr "Questa View"
+
+#: resources/views/dashboard/index.php:25
+msgid "Results"
+msgstr "Risultati"
+
+#: resources/views/dashboard/second.php:19
+msgid "Javascript"
+msgstr "Javascript"
 
 #: public/apps/app.js:1
 msgid "Hello World!"

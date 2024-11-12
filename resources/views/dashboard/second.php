@@ -7,8 +7,23 @@
  |
 -->
 
-<div class="wp-kirk wrap">
-  <h1><?php echo $plugin->Name; ?> boilerplate</h1>
-  <p><?php _e('This page opens an alert with localized text for JavaScript.', 'wp-kirk'); ?></p>
-  <button id="open-alert"><?php _e('Open Alert', 'wp-kirk'); ?></button>
+<?php ob_start() ?>
+
+<div class="wp-kirk wrap wp-kirk-sample">
+
+  <div class="wp-kirk-toc-content">
+
+    <?php wpkirk_section(__('Controller', 'wp-kirk')); ?>
+    <?php wpkirk_code('@/plugin/Http/Controllers/Dashboard/DashboardController.php'); ?>
+
+    <?php wpkirk_section(__('Javascript', 'wp-kirk')); ?>
+    <?php wpkirk_code('@/resources/assets/js/wp-kirk-main.js'); ?>
+
+    <?php wpkirk_section(__('This View', 'wp-kirk')); ?>
+    <?php wpkirk_code('@/resources/views/dashboard/index.php'); ?>
+
+  </div>
+
+  <?php wpkirk_toc('Internationalization') ?>
+
 </div>
