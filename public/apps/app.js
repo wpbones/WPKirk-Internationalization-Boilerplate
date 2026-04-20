@@ -1,1 +1,1 @@
-(()=>{"use strict";const e=window.React,t=window.wp.i18n,{render:n}=wp.element;n((0,e.createElement)((()=>(0,e.createElement)(e.Fragment,null,(0,e.createElement)("h2",null,(0,t.__)("Hello World!","wp-kirk")))),null),document.getElementById("react-app"))})();
+(()=>{"use strict";const e=window.wp.i18n,n=window.ReactJSXRuntime,{render:t}=wp.element,r=()=>(0,n.jsx)(n.Fragment,{children:(0,n.jsx)("h2",{children:(0,e.__)("Hello World!","wp-kirk")})});t((0,n.jsx)(r,{}),document.getElementById("react-app"))})();
