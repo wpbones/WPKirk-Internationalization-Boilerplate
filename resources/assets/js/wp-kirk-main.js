@@ -6,15 +6,13 @@
  */
 
 (function ($) {
-
-  "use strict";
+  'use strict';
 
   function openAlert() {
-    alert(wpKirkLanguages.greeting + " " + $().jquery);
+    alert(wpKirkLanguages.greeting + ' ' + $().jquery);
   }
 
   openAlert();
 
   $('#open-alert').on('click', openAlert);
-
 })(jQuery);
